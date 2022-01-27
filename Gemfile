@@ -5,5 +5,6 @@ ruby '3.1.0'
 
 # gem "rails"
 gem 'sinatra'
+gem 'thin'
 
 gem 'rspec'
