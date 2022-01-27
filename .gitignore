@@ -54,3 +54,9 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Ignore Emacs backup files
+*~
+
+# Ignore desafio info
+desafio-sinatra.md
