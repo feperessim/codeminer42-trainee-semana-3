@@ -1,0 +1,45 @@
+
+body {
+    background-color: #D3D3D3;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  display: inline;
+  margin:auto;
+}
+
+
+hr {
+    width:14%;
+    text-align:left;
+    margin-left:1;
+    border: 5px solid #9900CC;
+}
+
+
+img {
+    text-align: right;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    float: right;
+}
+
+
+.div_text_presentation {
+  width: 1500px;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 30px; 
+}
+
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
