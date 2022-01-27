@@ -49,3 +49,19 @@ foo@bar:~$ bundle install
 ```console
 foo@bar:~$ ruby myapp.rb
 ```
+
+* 2. Running rspec
+```console
+foo@bar:~$ bundle exec rspec
+```
+or
+
+```console
+foo@bar:~$ rspec --format documentation
+```
+
+* 3 Running RuboCop static code analyzer
+
+```console
+foo@bar:~$ bundle exec rubocop
+```
