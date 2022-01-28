@@ -57,6 +57,21 @@ img {
 }
 
 
+.hr_undergrad {
+    width:17%;
+}
+
+
+.hr_grad {
+    width:21%;
+}
+
+
+.hr_full {
+    width:100%;
+    border: 0px solid #9900CC;
+}
+
 #wrapper {
     display: flex;
     justify-content: center;
