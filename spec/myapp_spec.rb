@@ -17,4 +17,18 @@ describe 'Server Service' do
       expect(response.status).to eq 200
     end
   end
+  
+  context 'GET to /projects' do
+    let(:response) { get '/projects' }
+    it 'returns status 200 OK' do
+      expect(response.status).to eq 200
+    end
+  end
+
+  context 'GET to wrong page' do
+    let(:response) { get 'wrong_page' }
+    it 'returns status 404 page not found' do
+      expect(response.status).to eq 404
+    end
+  end
 end
