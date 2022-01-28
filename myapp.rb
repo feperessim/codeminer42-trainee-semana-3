@@ -10,3 +10,6 @@ get '/projects' do
   erb :projects
 end
 
+get '/education' do
+  erb :education
+end

@@ -17,9 +17,16 @@ describe 'Server Service' do
       expect(response.status).to eq 200
     end
   end
-  
+
   context 'GET to /projects' do
     let(:response) { get '/projects' }
+    it 'returns status 200 OK' do
+      expect(response.status).to eq 200
+    end
+  end
+
+  context 'GET to /education' do
+    let(:response) { get '/education' }
     it 'returns status 200 OK' do
       expect(response.status).to eq 200
     end
