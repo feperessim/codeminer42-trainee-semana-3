@@ -12,28 +12,32 @@ describe 'Server Service' do
   end
 
   context 'GET to /' do
-    let(:response) { get '/' }
+    subject(:response) { get '/' }
+
     it 'returns status 200 OK' do
       expect(response.status).to eq 200
     end
   end
 
   context 'GET to /projects' do
-    let(:response) { get '/projects' }
+    subject(:response) { get '/projects' }
+
     it 'returns status 200 OK' do
       expect(response.status).to eq 200
     end
   end
 
   context 'GET to /education' do
-    let(:response) { get '/education' }
+    subject(:response) { get '/education' }
+
     it 'returns status 200 OK' do
       expect(response.status).to eq 200
     end
   end
 
   context 'GET to wrong page' do
-    let(:response) { get 'wrong_page' }
+    subject(:response) { get 'wrong_page' }
+
     it 'returns status 404 page not found' do
       expect(response.status).to eq 404
     end
