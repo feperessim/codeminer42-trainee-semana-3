@@ -6,7 +6,10 @@ ruby '3.1.0'
 # gem "rails"
 # Sinatra
 gem 'sinatra'
-gem 'thin'
+
+group :development do
+  gem 'thin'
+end
 
 # tests
 group :test do
